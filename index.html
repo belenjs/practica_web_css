@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>La flor de Ren</title>
+    <link rel="stylesheet" href="CSS/styled.css">
+</head>
+
+<body>
+    <div class="wrapper">
+    
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about_me">Sobre mi</a>
+                 </li>
+                <li>
+                    <a href="#skills">Habilidades</a>
+                </li>
+                <li>
+                    <a href="#contact">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+
+    <header class="header-style">
+        <h1>Hey, Nana...</h1>
+        
+    </header>
+    <main>
+        <section class="about_me" id="about_me">
+            <h3 class="sobre_mi_titulo">Sobre mi</h3>
+            <p>Mi nombre es Nana, soy cantante del grupo punk Black Stones.
+                Amo a Vivienne Westwood, mi banda favorita son los Sex Pistols y lo que más me encanta después de un buen ensayo es comerme un trozo de pastel de fresa.
+            </p>
+        </section>
+
+        <section class="skills" id="skills">
+            <h3>Mis habilidades</h3>
+            <p>Cantar</p>
+            <div class="container">
+                <div class="skills_cantar">90%</div>
+            </div>
+
+            <p>Molestar a Hachiko</p>
+            <div class="container">
+                <div class="skills_molestar">85%</div>
+            </div>
+
+            <p>Odiar a Takumi</p>
+            <div class="container">
+                <div class="skills_odiar">100%</div>
+            </div>
+
+            <p>Cocinar con mucha sal</p>
+            <div class="container">
+                <div class="skills_cocinar">75%</div>
+            </div>
+    
+        </section>
+
+        <section class="contact" id="contact">
+            <h3 class="contact_titulo">Contacta conmigo</h3>
+            <form>
+                <div>
+                    <label for="name">Nombre</label>
+                    <input required id="name" name="name" type="text" placeholder="Escribe tu nombre">
+                </div>
+
+                <div>
+                    <label for="surname">Apellidos</label>
+                    <input required id="surname" name="surname" type="text" placeholder="Escribe tus apellidos">
+                </div>
+
+                <div>
+                    <label for="phone">Telefono</label>
+                    <input required id="phone" name="phone" type="tel" pattern="[0-9]+" placeholder="Dame tu número">
+                </div>
+
+                <div>
+                    <label for="username">Github username</label>
+                    <input id="username" name="username" type="text" placeholder="@username" pattern="^@[^\s]+">
+                </div>
+                
+                <fieldset>
+                    <legend>¿Cómo me conociste?</legend>
+                    <label for="concierto">En un concierto</label>
+                    <input id="concierto" type="radio" name="eleccion" value="concierto">
+                    <label for="hachi">Hachi te habló de mí</label>
+                    <input id="hachi" type="radio" name="eleccion" value="hachi">
+                    <label for="bar">Me has visto en el Jackson Hole Bar</label>
+                    <input id="bar" type="radio" name="eleccion" value="bar">
+                </fieldset>
+
+                <div>
+                    <label for="mensaje">¿Algo más que contar?</label>
+                    <textarea required id="mensaje" maxlength="180"></textarea>
+                </div>
+                 <input type="submit" value="Enviar">
+                
+            </form>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <a href="https://github.com/" target="_blank">
+                <img src="Multimedia/icono gitub.png" alt="Imagen_github">
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="Multimedia/icono instagram.png" alt="Imagen_instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>

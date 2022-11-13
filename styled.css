@@ -1,0 +1,111 @@
+.wrapper {
+    width: 92%;
+    margin: 0px auto;
+    max-width: 700px;
+}
+
+.menu{
+    display:none
+}
+
+@media screen and (min-width: 576px) {
+    .navbar .menu {
+      display: flex; 
+    }
+  }
+  
+@media screen and (min-width: 992px) {
+    .navbar .menu .link:hover {
+      color: red;
+    }
+  }
+
+.header-style{
+    background: center center url(/Multimedia/nana.jpg) no-repeat;
+    height: 400px;
+    width: 100%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: black;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 400;
+    font-style: italic;
+  
+}
+
+.habilidades{
+    width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.container{
+    width: 100%;
+    background-color: #ddd;
+}
+
+h1{
+    color:black;
+}
+
+h3{
+    color:black;
+}
+.skills{
+    text-align:left;
+    padding: 10px;
+    color: black;
+    font-weight:lighter;
+}
+
+.skills_cantar{
+    background-color: mediumpurple;
+    animation: fillcantar 5s forwards;
+
+}
+
+.skills_molestar{
+    background-color: mediumpurple;
+    animation: fillmolestar 5s forwards;
+}
+
+.skills_odiar{
+    background-color: mediumpurple;
+    animation: fillodiar 5s forwards;
+}
+
+.skills_cocinar{
+    background-color: mediumpurple;
+    animation: fillcocinar 5s forwards;
+}
+
+@keyframes fillcantar{
+    0%{width: 0;}
+    100%{width: 90%;}
+}
+
+@keyframes fillmolestar{
+    0%{width: 0;}
+    100%{width: 85%;}
+}
+
+@keyframes fillodiar{
+    0%{width: 0;}
+    100%{width: 100%;}
+}
+
+@keyframes fillcocinar{
+    0%{width: 0;}
+    100%{width: 75%;}
+}
+
+footer{
+    background-color: mediumpurple;
+    text-align: center;
+    padding: 10px;
+}
